@@ -29,7 +29,7 @@ from launch.utilities import perform_substitutions
 
 from osrf_pycommon.process_utils import which
 
-from .find_package import FindPackagePrefix
+from ._find_package import FindPackagePrefix
 
 
 @expose_substitution('exec-in-pkg')

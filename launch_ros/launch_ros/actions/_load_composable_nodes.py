@@ -40,8 +40,8 @@ from launch_ros.parameter_descriptions import ParameterFile
 
 import lifecycle_msgs.msg
 
-from .composable_node_container import ComposableNodeContainer
-from .lifecycle_transition import LifecycleTransition
+from ._composable_node_container import ComposableNodeContainer
+from ._lifecycle_transition import LifecycleTransition
 
 from ..descriptions import ComposableNode
 from ..ros_adapters import get_ros_node
@@ -51,7 +51,7 @@ from ..utilities import get_node_name_count
 from ..utilities import make_namespace_absolute
 from ..utilities import prefix_namespace
 from ..utilities import to_parameters_list
-from ..utilities.normalize_parameters import normalize_parameter_dict
+from ..utilities import normalize_parameter_dict
 
 
 @expose_action('load_composable_node')

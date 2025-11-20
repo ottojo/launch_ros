@@ -14,7 +14,7 @@
 
 """Package for event_handlers."""
 
-from .on_state_transition import OnStateTransition
+from ._on_state_transition import OnStateTransition
 
 __all__ = [
     'OnStateTransition',

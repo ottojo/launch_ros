@@ -24,8 +24,8 @@ import rclpy.parameter
 
 import yaml
 
-from .evaluate_parameters import evaluate_parameter_dict
-from .normalize_parameters import normalize_parameter_dict
+from ._evaluate_parameters import evaluate_parameter_dict
+from ._normalize_parameters import normalize_parameter_dict
 
 from ..parameters_type import EvaluatedParameters
 

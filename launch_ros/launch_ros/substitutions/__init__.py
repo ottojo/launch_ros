@@ -14,11 +14,11 @@
 
 """substitutions Module."""
 
-from .executable_in_package import ExecutableInPackage
-from .find_package import FindPackage
-from .find_package import FindPackagePrefix
-from .find_package import FindPackageShare
-from .parameter import Parameter
+from ._executable_in_package import ExecutableInPackage
+from ._find_package import FindPackage
+from ._find_package import FindPackagePrefix
+from ._find_package import FindPackageShare
+from ._parameter import Parameter
 
 
 __all__ = [

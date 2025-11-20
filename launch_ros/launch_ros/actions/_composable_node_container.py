@@ -24,7 +24,7 @@ from launch.frontend import Parser
 from launch.launch_context import LaunchContext
 from launch.some_substitutions_type import SomeSubstitutionsType
 
-from .node import Node
+from ._node import Node
 
 from ..descriptions import ComposableNode
 
@@ -86,7 +86,7 @@ class ComposableNodeContainer(Node):
                     valid_composable_nodes.append(node_object)
 
         if valid_composable_nodes:
-            from .load_composable_nodes import LoadComposableNodes
+            from ._load_composable_nodes import LoadComposableNodes
             # Perform load action once the container has started.
             load_actions = [
                 LoadComposableNodes(

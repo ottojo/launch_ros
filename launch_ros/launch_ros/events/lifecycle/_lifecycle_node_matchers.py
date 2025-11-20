@@ -18,7 +18,7 @@ from typing import Callable
 from typing import Text
 import warnings
 
-from ..matchers import matches_node_name as _matches_node_name
+from .._matchers import matches_node_name as _matches_node_name
 
 if False:
     # imports here would cause loops, but are only used as forward-references for type-checking

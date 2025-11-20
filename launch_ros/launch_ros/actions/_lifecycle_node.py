@@ -25,8 +25,8 @@ import launch.logging
 import lifecycle_msgs.msg
 import lifecycle_msgs.srv
 
-from .lifecycle_transition import LifecycleTransition
-from .node import Node
+from ._lifecycle_transition import LifecycleTransition
+from ._node import Node
 
 from ..utilities import LifecycleEventManager
 

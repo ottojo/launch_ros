@@ -14,7 +14,7 @@
 
 """events.matchers module."""
 
-from .matches_node_name import matches_node_name
+from ._matches_node_name import matches_node_name
 
 __all__ = [
     'matches_node_name',

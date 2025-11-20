@@ -24,7 +24,7 @@ from launch_ros.parameters_type import Parameters
 from launch_ros.remap_rule_type import RemapRules
 from launch_ros.utilities import LifecycleEventManager
 
-from .composable_node import ComposableNode
+from ._composable_node import ComposableNode
 
 
 class ComposableLifecycleNode(ComposableNode):

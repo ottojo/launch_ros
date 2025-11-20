@@ -29,7 +29,7 @@ from launch.utilities import perform_substitutions
 
 from launch_ros.event_handlers import OnStateTransition
 from launch_ros.events.lifecycle import ChangeState, StateTransition
-from launch_ros.events.matchers import matches_node_name
+from launch_ros.events import matches_node_name
 from lifecycle_msgs.msg import Transition
 
 
